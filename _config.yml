@@ -33,8 +33,8 @@ paginate: 5
 
 
 # Build settings
-source: /home/andy/sites/moley75/
-destination: /home/andy/sites/www.moley75.co.uk/
+source: C:\Users\hazel\moley75\
+destination: C:\Users\Hazel\www.moley75.co.uk\
 version: 3.0.1
 port: 4050
 markdown: kramdown
@@ -42,7 +42,6 @@ plugins: [
         jekyll-feed,
         bootstrap-sass,
         jekyll-archives,
-        jekyll-sitemap,
         jekyll-paginate
         ]
 exclude:  
