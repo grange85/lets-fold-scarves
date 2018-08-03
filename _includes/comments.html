@@ -1,0 +1,27 @@
+<h3>Comments</h3>
+       <ul class="">
+          {% for comment in page.comments %}
+<li class="comment even thread-even depth-1 bg-info" style="margin-bottom: 8px;" id="li-comment-{{comment.id}}">
+    <article id="comment-{{comment.id}}" class="comment">
+      <footer class="comment-meta">
+        <div class="comment-author vcard">
+          <span class="fn">
+            <strong>
+            {% if comment.author_url %}
+              <a href="{{comment.author_url}}" rel="external nofollow" class="url">{{comment.author}}</a>
+            {% else %}
+              {{comment.author}}
+            {% endif %}
+          </strong>
+          </span>
+               on <a href="{{site.base_url}}{{page.url}}#comment-{{comment.id}}"><time datetime="{{comment.date_gmt}}">{{ comment.date | date: "%-d %B %Y" }}</time></a> <span class="says">said:</span>
+                  </div>
+      </footer>
+
+      <div class="comment-content">{{comment.content}}</div>
+    </article><!-- #comment-## -->
+  </li>
+
+
+          {% endfor %}
+</ul>
