@@ -1,0 +1,397 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-2018-08-04-test-0post-3.markdown",
+			"settings":
+			{
+				"buffer_size": 228,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lets-fold-scarves.sublime-project",
+			"settings":
+			{
+				"buffer_size": 499,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-test-post-3.markdown",
+			"settings":
+			{
+				"buffer_size": 40,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"jekynew",
+				"Jekyll: New post"
+			],
+			[
+				"jekyll rem",
+				"Jekyll: Remove post"
+			],
+			[
+				"newpos",
+				"Jekyll: New post from template"
+			],
+			[
+				"packageres",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"new pos",
+				"Jekyll: New post from template"
+			],
+			[
+				"new post",
+				"Jekyll: New post from template"
+			],
+			[
+				"new te",
+				"Jekyll: New post from template"
+			],
+			[
+				"jekyll post",
+				"Jekyll: New post from template"
+			],
+			[
+				"jekyll new pos",
+				"Jekyll: New post from template"
+			],
+			[
+				"rem",
+				"Jekyll: Remove post"
+			],
+			[
+				"remo",
+				"Jekyll: Remove post"
+			],
+			[
+				"jekyll",
+				"Jekyll: New post"
+			],
+			[
+				"insta\t",
+				"Package Control: Install Package"
+			],
+			[
+				"jek",
+				"Jekyll: New post"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts"
+	],
+	"file_history":
+	[
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-2018a-test-post.markdown",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-2018-08-04-test-0post-3.markdown",
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/Markdown/Markdown.sublime-syntax",
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/YAML/YAML.sublime-syntax",
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/YAML/YAML.sublime-settings",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_templates/post.template",
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/Jekyll/Jekyll.sublime-settings",
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/Jekyll Templates/post.template",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018/2018-02-25-sabotage-1936.html",
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/Jekyll/README.md",
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/Jekyll/snippets/assign.sublime-snippet",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-20182018-08-03-test-post-1.markdown",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-20182018-08-04-test-post-2.markdown",
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/Jekyll/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-2018-08-04-test-0post-3.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lets-fold-scarves.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-test-post-3.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								35
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 39.2
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lets-fold-scarves.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 364.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
