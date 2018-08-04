@@ -1,0 +1,16 @@
+---
+layout: ${1:post}
+status: publish
+published: true
+draft: false
+title: $2
+author:
+  display_name: Hazel
+  email: hazel@moley75.co.uk
+date: ${3:date_to_string}
+imageurl: $4
+categories:
+ - $5
+tags:
+ - $6
+---
