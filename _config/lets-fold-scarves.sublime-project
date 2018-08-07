@@ -2,8 +2,25 @@
 	"folders":
 	[
 		{
-			"path": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves"
-		}
+            "name": "POSTS",
+			"path": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\_posts\\"
+		},
+        {
+            "name": "DRAFTS",
+            "path": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\_drafts\\"
+        },
+        {
+            "name": "FILES",
+            "path": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\images\\"
+        },
+        {
+            "name": "LAYOUTS",
+            "path": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\_layouts\\"
+        },
+        {
+            "name": "INCLUDES",
+            "path": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\_includes\\"
+        }
 	],
 
 	"settings":
@@ -18,32 +35,37 @@
 		}
 	},
 
-    "build_systems":
-    [
+    "build_systems": [
+    {
         // This will build your Jekyll site, and print a trace to the console
-        {
-            "name": "Jekyll build",
-            // Change this directory to match your top-level Jekyll project folder
-            "working_dir": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\",
-            "cmd": "jekyll build -t",
-            "shell": true,
-            "encoding": "UTF-8"
-        },
-        {
-            "name": "Jekyll serve",
-            // Change this directory to match your top-level Jekyll project folder
-            "working_dir": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\",
-            "cmd": "jekyll serve --incremental",
-            "shell": true,
-            "encoding": "UTF-8"
-        },
-        {
-            "name": "Jekyll deploy",
-            // Change this directory to match your top-level Jekyll project folder
-            "working_dir": "C:\\Users\\Hazel\\Documents\\www.moley75.co.uk\\",
-            "cmd": "aws s3 sync --size-only --storage-class REDUCED_REDUNDANCY C:\\Users\\Hazel\\Documents\\www.moley75.co.uk\\ s3://www.moley75.co.uk/",
-            "shell": true,
-            "encoding": "UTF-8"
-        }
-    ]
+        "name": "LFS",
+        "variants":
+        [
+            {
+                "name": "build",
+                // Change this directory to match your top-level Jekyll project folder
+                "working_dir": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\",
+                "cmd": "jekyll build -t",
+                "shell": true,
+                "encoding": "UTF-8"
+            },
+            {
+                "name": "serve",
+                // Change this directory to match your top-level Jekyll project folder
+                "working_dir": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\",
+                "cmd": "jekyll serve --incremental",
+                "shell": true,
+                "encoding": "UTF-8"
+            },
+            {
+                "name": "deploy",
+                // Change this directory to match your top-level Jekyll project folder
+                "working_dir": "C:\\Users\\Hazel\\Documents\\www.moley75.co.uk\\",
+                "cmd": "aws s3 sync --size-only --storage-class REDUCED_REDUNDANCY C:\\Users\\Hazel\\Documents\\www.moley75.co.uk\\ s3://www.moley75.co.uk/",
+                "shell": true,
+                "encoding": "UTF-8"
+            }
+        ]
+    }
+]
 }

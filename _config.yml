@@ -51,6 +51,7 @@ exclude:
   - Gemfile.lock
   - _templates
   - .sass_cache
+  - _config
 keep_files:
   - images
 excerpt_separator: <!--more-->

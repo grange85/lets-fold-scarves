@@ -14,26 +14,26 @@
 #  0. You just DO WHAT THE FUCK YOU WANT TO.
 # 
 # 
-# AHFoW liquid ahfowimage
+# LFS liquid lfsimage
 #
 # Example:
-#    {% ahfowimage image-url image-caption %}
+#    {% lfsimage image-url image-caption %}
 
 module Jekyll
-  class AhfowImageTag < Liquid::Tag
+  class LfsImageTag < Liquid::Tag
 
     def render(context)
       if tag_contents = determine_arguments(@markup.strip)
-        ahfowimage_url, ahfowimage_caption = tag_contents[0], tag_contents[1]
-        ahfowimage_tag(ahfowimage_url, ahfowimage_caption)
+        lfsimage_url, lfsimage_caption = tag_contents[0], tag_contents[1]
+        lfsimage_tag(lfsimage_url, lfsimage_caption)
       else
         raise ArgumentError.new <<-eos
-Syntax error in tag 'ahfowimage' while parsing the following markup:
+Syntax error in tag 'lfsimage' while parsing the following markup:
 
   #{@markup}
 
 Valid syntax:
-{% ahfowimage image-url image-caption %}
+{% lfsimage image-url image-caption %}
 eos
       end
     end
@@ -45,14 +45,14 @@ eos
       [matched[1].to_s.strip, matched[2].to_s.strip] if matched && matched.length >= 3
     end
 
-    def ahfowimage_tag(ahfowimage_url, ahfowimage_caption = nil)
-      if ahfowimage_caption.empty?
-        "<figure class=\"caption aligncenter\"><img src=\"#{ahfowimage_url}\" /></figure>"
+    def lfsimage_tag(lfsimage_url, lfsimage_caption = nil)
+      if lfsimage_caption.empty?
+        "<figure class=\"caption aligncenter\"><img src=\"#{lfsimage_url}\" /></figure>"
       else
-        "<figure class=\"caption aligncenter\"><img src=\"#{ahfowimage_url}\" alt=\"#{ahfowimage_caption}\" /><figcaption class=\"caption-text\">#{ahfowimage_caption}</figcaption></figure>"
+        "<figure class=\"caption aligncenter\"><img src=\"#{lfsimage_url}\" alt=\"#{lfsimage_caption}\" /><figcaption class=\"caption-text\">#{lfsimage_caption}</figcaption></figure>"
       end
     end
   end
 end
 
-Liquid::Template.register_tag('ahfowimage', Jekyll::AhfowImageTag)
+Liquid::Template.register_tag('lfsimage', Jekyll::LfsImageTag)
