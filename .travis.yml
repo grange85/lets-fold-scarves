@@ -1,0 +1,44 @@
+language: ruby
+rvm:
+  - 2.4.1
+
+install: gem install jekyll html-proofer
+script: jekyll build && htmlproofer ./_site
+
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - master     # test the gh-pages branch
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+
+addons:
+  apt:
+    packages:
+    - libcurl4-openssl-dev
+
+sudo: false # route your build to the container-based infrastructure for a faster build
+
+cache: bundler # caching bundler gem packages will speed up build
+
+deploy:
+    provider: s3
+    access_key_id: $AWS_ACCESS_KEY # declared in Travis repo settings
+    secret_access_key: $AWS_SECRET_KEY
+    bucket: www.moley75.co.uk
+    region: eu-west-2
+    skip_cleanup: true
+    local-dir: _site
+    acl: public_read
+    detect_encoding: true
+notifications:
+    email:
+        on_failure: always
+
+
+
+# Optional: disable email notifications about the outcome of your builds
+notifications:
+  email: false
