@@ -18,7 +18,7 @@ addons:
 sudo: false # route your build to the container-based infrastructure for a faster build
 
 cache: bundler # caching bundler gem packages will speed up build
-
+before_deploy: pip install --user awscli
 deploy:
     provider: script
     script: ~/.local/bin/aws s3 sync /home/travis/build/grange85/lets-fold-scarves/_site s3://www.moley75.co.uk --region=eu-west-2 --delete
