@@ -40,8 +40,7 @@ plugins: [
         jekyll-feed,
         bootstrap-sass,
         jekyll-archives,
-        jekyll-paginate,
-        wdm
+        jekyll-paginate
         ]
         
 exclude:  
