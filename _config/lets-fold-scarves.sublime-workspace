@@ -8,46 +8,28 @@
 	"buffers":
 	[
 		{
-			"file": "lets-fold-scarves.sublime-project",
+			"contents": "jdshfkjshdkjf\nkjdkjsfh",
 			"settings":
 			{
-				"buffer_size": 2456,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 22,
+				"line_ending": "Windows",
+				"name": "jdshfkjshdkjf"
 			}
 		},
 		{
-			"file": "/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/lets-fold-scarves.sublime-completions",
+			"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018/2018-12-26-the-lady-vanishes-1938.markdown",
 			"settings":
 			{
-				"buffer_size": 265,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_plugins/lfs_image.rb",
-			"settings":
-			{
-				"buffer_size": 1719,
+				"buffer_size": 677,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-test-post-3.markdown",
+			"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_includes/sidebar.html",
 			"settings":
 			{
-				"buffer_size": 400,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2017/2017-01-02-st-johns-churchyard.html",
-			"settings":
-			{
-				"buffer_size": 741,
+				"buffer_size": 9070,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -88,6 +70,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"templ",
+				"Jekyll: New post from template"
+			],
 			[
 				"bu",
 				"Build: Cancel"
@@ -178,13 +164,22 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/images",
-		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/images/uploads"
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_drafts",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_layouts"
 	],
 	"file_history":
 	[
-		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-test-post-3.markdown",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_drafts/some-art-deco-flats-in-pinner.markdown",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_includes/sidebar.html",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-12-26-the-lady-vanishes-1938.markdown",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-12-26-2018-12-26-the-lady-vanishes.markdown",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_config/lets-fold-scarves.sublime-project",
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/lets-fold-scarves.sublime-completions",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2017/2017-01-02-st-johns-churchyard.html",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_plugins/lfs_image.rb",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-test-post-3.markdown",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_config.yml",
 		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/jekyll-publish.sublime-build",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-2018-08-04-test-0post-3.markdown",
@@ -205,7 +200,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -242,117 +237,29 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "lets-fold-scarves.sublime-project",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2456,
+						"buffer_size": 22,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2451,
-								2451
+								22,
+								22
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 270.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/lets-fold-scarves.sublime-completions",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 265,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								248,
-								248
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_plugins/lfs_image.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1719,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1453,
-								1626
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 755.2,
-						"translation.y": 702.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-test-post-3.markdown",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 400,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								296,
-								296
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"auto_name": "jdshfkjshdkjf",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -362,31 +269,61 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2017/2017-01-02-st-johns-churchyard.html",
+					"buffer": 1,
+					"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018/2018-12-26-the-lady-vanishes-1938.markdown",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 741,
+						"buffer_size": 677,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								741,
-								741
+								0,
+								677
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 182.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_includes/sidebar.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9054,
+								9054
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4541.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -473,7 +410,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 256.0,
+	"side_bar_width": 318.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
