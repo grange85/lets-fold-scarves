@@ -33,8 +33,6 @@ paginate: 5
 
 
 # Build settings
-source: C:\Users\Hazel\Documents\GitHub\lets-fold-scarves
-destination: C:\Users\Hazel\Documents\www.moley75.co.uk\
 version: 3.0.1
 port: 4050
 markdown: kramdown
@@ -42,16 +40,20 @@ plugins: [
         jekyll-feed,
         bootstrap-sass,
         jekyll-archives,
-        jekyll-paginate,
-        wdm
+        jekyll-paginate
         ]
         
-exclude:  
-  - Gemfile
-  - Gemfile.lock
-  - _templates
-  - .sass_cache
-  - _config
+exclude: [
+    '_notes',
+    'Gemfile',
+    'Gemfile.lock',
+    'Rakefile',
+    '.sass-cache',
+    '.git',
+    's3cfg-prog',
+    's3cfg-prog.enc',
+    'config'
+  ]
 keep_files:
   - images
 excerpt_separator: <!--more-->
