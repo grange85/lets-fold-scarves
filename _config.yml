@@ -43,12 +43,17 @@ plugins: [
         jekyll-paginate
         ]
         
-exclude:  
-  - Gemfile
-  - Gemfile.lock
-  - _templates
-  - .sass_cache
-  - _config
+exclude: [
+    '_notes',
+    'Gemfile',
+    'Gemfile.lock',
+    'Rakefile',
+    '.sass-cache',
+    '.git',
+    's3cfg-prog',
+    's3cfg-prog.enc',
+    'config'
+  ]
 keep_files:
   - images
 excerpt_separator: <!--more-->
