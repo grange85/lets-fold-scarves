@@ -29,7 +29,22 @@ jekyll-archives:
   permalinks:
     month: '/:year/:month/'
     category: '/category/:name/'
-paginate: 5
+pagination: 
+  enabled: true
+  debug: false
+  collection: 'posts'
+  per_page: 5
+  permalink: '/page:num/'
+  title: ':title - page :num'
+  limit: 10
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+  trail: 
+    before: 2
+    after: 2
+  extension: html
+  indexpage: 'index'
 
 
 # Build settings
@@ -40,7 +55,7 @@ plugins: [
         jekyll-feed,
         bootstrap-sass,
         jekyll-archives,
-        jekyll-paginate
+        jekyll-paginate-v2
         ]
         
 exclude: [
