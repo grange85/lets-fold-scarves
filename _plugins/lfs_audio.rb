@@ -46,7 +46,7 @@ eos
     end
 
     def lfsaudio_tag(lfsaudio_url, lfsaudio_caption = "audio")
-        "<div class=\"well\"><p class=\"audio\">Audio: <a href=\"#{ahfowaudio_url}\">#{ahfowaudio_caption}</a></p><audio controls=\"controls\" preload=\"none\" src=\"#{ahfowaudio_url}\"></audio></div>"
+        "<div class=\"well\"><p class=\"audio\">Audio: <a href=\"#{lfsaudio_url}\">#{lfsaudio_caption}</a></p><audio controls=\"controls\" preload=\"none\" src=\"#{lfsaudio_url}\"></audio></div>"
     end
   end
 end
