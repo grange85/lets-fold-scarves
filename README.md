@@ -15,7 +15,7 @@
 ```
 For local images use root relative paths so...
 ```
-{% lfsimage "/images/uploads/2007/05/wtwta-giles.jpg" "Hitchcock's model trains" %}
+{% lfsimage "/images/uploads/2007/05/wtwta-giles.jpg" "Giles" %}
 ```
 
 #### Embed Youtube video
