@@ -1,5 +1,0 @@
-source "https://rubygems.org"
-gem "jekyll-feed"
-gem "bootstrap-sass"
-gem "jekyll-archives"
-gem "jekyll-paginate-v2"
