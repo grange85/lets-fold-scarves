@@ -53,15 +53,7 @@
                 "name": "serve",
                 // Change this directory to match your top-level Jekyll project folder
                 "working_dir": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\",
-                "cmd": "jekyll serve --incremental",
-                "shell": true,
-                "encoding": "UTF-8"
-            },
-            {
-                "name": "deploy",
-                // Change this directory to match your top-level Jekyll project folder
-                "working_dir": "C:\\Users\\Hazel\\Documents\\www.moley75.co.uk\\",
-                "cmd": "aws s3 sync --size-only --storage-class REDUCED_REDUNDANCY C:\\Users\\Hazel\\Documents\\www.moley75.co.uk\\ s3://www.moley75.co.uk/",
+                "cmd": "jekyll serve --incremental --unpublished",
                 "shell": true,
                 "encoding": "UTF-8"
             }
