@@ -8,21 +8,21 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018/2018-12-26-the-lady-vanishes-1938.md",
+			"file": "/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/lets-fold-scarves.sublime-completions",
 			"settings":
 			{
-				"buffer_size": 699,
+				"buffer_size": 530,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "----- BEGIN LICENSE ----- Andy Aldridge Single User License EA7E-939284 BBC44578 27C9F11C 72095BFB CE1311A0 CF841EEC 6EFB5A05 0C63D3B3 654A609A 3B60A58F 93583DCA 0EC1DFC3 53A55265 0E0828A9 EA6307B0 F5679539 6FD9E47A 993644B3 9D787155 EB286266 F4D296FC BE592388 6B8D56E5 568934EA 3816B4A9 06931D95 A716C510 502DA543 89E69C42 D426AA52 DA131373 88B9238C A8EE96F6 ------ END LICENSE ------\n",
+			"file": "lets-fold-scarves.sublime-project",
 			"settings":
 			{
-				"buffer_size": 386,
-				"line_ending": "Windows",
-				"name": "----- BEGIN LICENSE ----- Andy Aldridge Single Use"
+				"buffer_size": 1608,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -61,6 +61,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
 			[
 				"templ",
 				"Jekyll: New post from template"
@@ -155,12 +159,10 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts",
-		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018",
-		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/images"
 	],
 	"file_history":
 	[
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018/2018-12-26-the-lady-vanishes-1938.md",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_config.yml",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/Gemfile",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018/2018-12-26-the-lady-vanishes-1938.markdown",
@@ -236,24 +238,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018/2018-12-26-the-lady-vanishes-1938.md",
+					"file": "/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/lets-fold-scarves.sublime-completions",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 699,
+						"buffer_size": 530,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								699,
-								699
+								530,
+								530
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -264,27 +266,29 @@
 				},
 				{
 					"buffer": 1,
+					"file": "lets-fold-scarves.sublime-project",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 386,
+						"buffer_size": 1608,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								386,
-								386
+								852,
+								852
 							]
 						],
 						"settings":
 						{
-							"auto_name": "----- BEGIN LICENSE ----- Andy Aldridge Single Use",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 586.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
