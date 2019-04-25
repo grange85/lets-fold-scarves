@@ -25,31 +25,5 @@
             "name": "ALL",
             "path": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\"
         }
-	],
-
-    "build_systems": [
-    {
-        // This will build your Jekyll site, and print a trace to the console
-        "name": "LFS",
-        "variants":
-        [
-            {
-                "name": "build",
-                // Change this directory to match your top-level Jekyll project folder
-                "working_dir": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\",
-                "cmd": "jekyll build -t",
-                "shell": true,
-                "encoding": "UTF-8"
-            },
-            {
-                "name": "serve",
-                // Change this directory to match your top-level Jekyll project folder
-                "working_dir": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\",
-                "cmd": "jekyll serve --incremental --unpublished --future",
-                "shell": true,
-                "encoding": "UTF-8"
-            }
-        ]
-    }
-]
+	]
 }

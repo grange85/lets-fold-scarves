@@ -8,10 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/lets-fold-scarves.sublime-completions",
+			"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2019/2019-04-25-the-lady-vanishes-1938.md",
 			"settings":
 			{
-				"buffer_size": 530,
+				"buffer_size": 3075,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -20,7 +20,7 @@
 			"file": "lets-fold-scarves.sublime-project",
 			"settings":
 			{
-				"buffer_size": 1608,
+				"buffer_size": 824,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -61,6 +61,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"spell",
+				"Preferences: Package Control Settings – Default"
+			],
 			[
 				"remov",
 				"Package Control: Remove Package"
@@ -159,9 +163,18 @@
 	},
 	"expanded_folders":
 	[
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_config"
 	],
 	"file_history":
 	[
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/en_GB.dic",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_config/lets-fold-scarves.sublime-project",
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/lets-fold-scarves.sublime-completions",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2019/2019-04-25-the-lady-vanishes-1938.md",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/README.md",
+		"/C/Users/Hazel/LetsFoldScarves.cmd",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018/2018-12-26-the-lady-vanishes-1938.md",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_config.yml",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/Gemfile",
@@ -172,8 +185,6 @@
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_drafts/some-art-deco-flats-in-pinner.markdown",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-12-26-the-lady-vanishes-1938.markdown",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-12-26-2018-12-26-the-lady-vanishes.markdown",
-		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_config/lets-fold-scarves.sublime-project",
-		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/lets-fold-scarves.sublime-completions",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2017/2017-01-02-st-johns-churchyard.html",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_plugins/lfs_image.rb",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-test-post-3.markdown",
@@ -196,7 +207,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 39.2
 	},
 	"find_in_files":
 	{
@@ -233,35 +244,35 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/lets-fold-scarves.sublime-completions",
+					"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2019/2019-04-25-the-lady-vanishes-1938.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 530,
+						"buffer_size": 3075,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								530,
-								530
+								298,
+								298
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 194.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -270,15 +281,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1608,
+						"buffer_size": 824,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								852,
-								852
+								0,
+								0
 							]
 						],
 						"settings":
@@ -288,10 +299,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 586.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
