@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: The Lady Vanishes (1938)
 author:
   display_name: Hazel
