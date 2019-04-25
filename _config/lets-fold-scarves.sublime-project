@@ -20,20 +20,12 @@
         {
             "name": "INCLUDES",
             "path": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\_includes\\"
+        },
+        {
+            "name": "ALL",
+            "path": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\"
         }
 	],
-
-	"settings":
-	{
-		"Jekyll":
-		{
-
-			"jekyll_posts_path": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\_posts",
-			"jekyll_drafts_path": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\_drafts",
-			"jekyll_uploads_path": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\images",
-			"jekyll_templates_path": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\_templates"
-		}
-	},
 
     "build_systems": [
     {
@@ -53,7 +45,7 @@
                 "name": "serve",
                 // Change this directory to match your top-level Jekyll project folder
                 "working_dir": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\",
-                "cmd": "jekyll serve --incremental --unpublished",
+                "cmd": "jekyll serve --incremental --unpublished --future",
                 "shell": true,
                 "encoding": "UTF-8"
             }
