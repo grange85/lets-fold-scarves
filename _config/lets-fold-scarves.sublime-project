@@ -26,6 +26,13 @@
             "path": "C:\\Users\\Hazel\\Documents\\GitHub\\lets-fold-scarves\\"
         }
 	],
+    "completions": [
+        {
+            "trigger": "test",
+            "contents": "test, test, test"
+        }
+
+    ],
 
     "build_systems": [
     {
