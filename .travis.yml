@@ -32,5 +32,5 @@ notifications:
         on_failure: always
 
 after_deploy:
-    aws s3 cp --content-type "application/rss+xml" --metadata-directive REPLACE s3://www.moley75.co.uk/feed s3://www.moley75.co.uk/feed 
-    aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
+  - aws s3 cp --content-type "application/rss+xml" --metadata-directive REPLACE s3://www.moley75.co.uk/feed s3://www.moley75.co.uk/feed 
+  - aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
