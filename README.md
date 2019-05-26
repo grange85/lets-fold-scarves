@@ -35,10 +35,21 @@ This will show all posts including those set to unpublished
 {% lfsimage "image-url" "caption" %}
 {% lfsimage "https://thejar.hitchcock.zone/1000/The%20Lady%20Vanishes%20(1938)/0011.jpg" "Hitchcock's model trains" %}
 ```
+
+Local images can be stored in the images folder.
+
+To resize images open the file in Paint and on the Home tab choose resize - select the *Pixels* radio button and ensure that the *Maintain aspect ratio* tickbox is ticked.
+
+For a full width image choose 800 as the width.
+
+Choose Save as and save it in the images folder. 
+
 For local images use root relative paths so...
 ```
 {% lfsimage "/images/uploads/2007/05/wtwta-giles.jpg" "Giles" %}
 ```
+
+
 
 #### Embed Youtube video
 ```
@@ -52,6 +63,6 @@ For local images use root relative paths so...
 ```
 For local images use root relative paths so...
 ```
-{% lfsimage "/images/uploads/a-fake-url.mp3" %}
+{% lfsaudio "/images/uploads/a-fake-url.mp3" "caption" %}
 ```
 
