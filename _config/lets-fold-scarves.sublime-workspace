@@ -7,27 +7,24 @@
 	},
 	"buffers":
 	[
-<<<<<<< HEAD
-=======
 		{
-			"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2019/2019-04-25-the-lady-vanishes-1938.md",
+			"contents": "---\nlayout: post\npublished: true\ntitle: Jamaica Inn (1939)\nauthor:\n  display_name: Hazel\n  email: hazel@moley75.co.uk\ndate: 2019-05-25\nimageurl: \ncategories:\n - Hitchcock\n - Films\n---\n",
 			"settings":
 			{
-				"buffer_size": 3075,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 184,
+				"line_ending": "Windows",
+				"name": "---"
 			}
 		},
 		{
-			"file": "lets-fold-scarves.sublime-project",
+			"file": "/C/Users/Hazel/script/LetsFoldScarves.cmd",
 			"settings":
 			{
-				"buffer_size": 824,
+				"buffer_size": 105,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
->>>>>>> 67f580a65d79808addd78ce37ef74748a7f258a0
 	],
 	"build_system": "LFS",
 	"build_system_choices":
@@ -166,23 +163,23 @@
 	},
 	"expanded_folders":
 	[
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2019",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves",
-		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_config"
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_config",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/images"
 	],
 	"file_history":
 	[
-<<<<<<< HEAD
-		"/Users/andyaldridge/repos/lets-fold-scarves/_config/lets-fold-scarves.sublime-project",
-		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/lets-fold-scarves.sublime-completions",
-=======
-		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/en_GB.dic",
+		"/C/Users/Hazel/LetsFoldScarves.cmd",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2019/2019-5-25-reg-allen-london.md",
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_config/lets-fold-scarves.sublime-project",
+		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2019/2019-04-25-the-lady-vanishes-1938.md",
+		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/en_GB.dic",
 		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
 		"/C/Users/Hazel/AppData/Roaming/Sublime Text 3/Packages/User/lets-fold-scarves.sublime-completions",
-		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2019/2019-04-25-the-lady-vanishes-1938.md",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/README.md",
-		"/C/Users/Hazel/LetsFoldScarves.cmd",
->>>>>>> 67f580a65d79808addd78ce37ef74748a7f258a0
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018/2018-12-26-the-lady-vanishes-1938.md",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_config.yml",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/Gemfile",
@@ -193,10 +190,6 @@
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_drafts/some-art-deco-flats-in-pinner.markdown",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-12-26-the-lady-vanishes-1938.markdown",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-12-26-2018-12-26-the-lady-vanishes.markdown",
-<<<<<<< HEAD
-		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_config/lets-fold-scarves.sublime-project",
-=======
->>>>>>> 67f580a65d79808addd78ce37ef74748a7f258a0
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2017/2017-01-02-st-johns-churchyard.html",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_plugins/lfs_image.rb",
 		"/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2018-08-04-test-post-3.markdown",
@@ -219,11 +212,7 @@
 	],
 	"find":
 	{
-<<<<<<< HEAD
-		"height": 24.0
-=======
 		"height": 39.2
->>>>>>> 67f580a65d79808addd78ce37ef74748a7f258a0
 	},
 	"find_in_files":
 	{
@@ -260,63 +249,29 @@
 	"groups":
 	[
 		{
-<<<<<<< HEAD
-			"sheets":
-			[
-=======
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Hazel/Documents/GitHub/lets-fold-scarves/_posts/2019/2019-04-25-the-lady-vanishes-1938.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3075,
+						"buffer_size": 184,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								298,
-								298
+								184,
+								184
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 194.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "lets-fold-scarves.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 824,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"auto_name": "---",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -324,14 +279,41 @@
 					},
 					"stack_index": 1,
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Hazel/script/LetsFoldScarves.cmd",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
 				}
->>>>>>> 67f580a65d79808addd78ce37ef74748a7f258a0
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -372,7 +354,7 @@
 	"project": "lets-fold-scarves.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
