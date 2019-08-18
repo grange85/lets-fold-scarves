@@ -4,3 +4,4 @@ images/remove/
 _site
 s3cfg-prod
 .DS_Store
+.jekyll-metadata
