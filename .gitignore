@@ -5,3 +5,4 @@ _site
 s3cfg-prod
 .DS_Store
 .jekyll-metadata
+"_config/" 
