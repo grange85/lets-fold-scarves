@@ -29,7 +29,7 @@ The torture scene is deeply unpleasant and cruel. While I’m aware that torture
 
 Naturally being Hitchcock it is very funny though I take issue with the commentators on the documentary on this particular DVD release (*Personal History: Foreign Hitchcock*) who seem to think it had something to do with Robert Benchley who is reasonably amusing in an entirely Robert Benchley way but I rather think that the Charles Bennett who wrote *The Man Who Knew Too Much*, *The 39 Steps*, *Secret Agent*, *Sabotage* and *Young and Innocent*, may have been a tiny bit more important on the humour front.
 
-Transport: ship, plane  
+Transport: ship, plane   
 Animals: cobwebbed sparrow  
-Source: Warner Brothers (USA)  
+Source: Warner Brothers (USA)    
 
