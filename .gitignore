@@ -2,7 +2,7 @@
 Gemfile.lock
 images/remove/
 _site
-s3cfg-prod
+-deploy
 .DS_Store
 .jekyll-metadata
 "_config/" 
