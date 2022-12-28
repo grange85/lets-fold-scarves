@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.moley75.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: moley75
+github_username: grange85
 permalink: /:year/:month/:day/:title/
 jekyll-archives:
   enabled: ['month','categories']
@@ -34,7 +35,7 @@ pagination:
 
 
 # Build settings
-version: 3.0.1
+version: 4.2.0
 host: 0.0.0.0
 port: 4050
 markdown: kramdown
@@ -55,7 +56,11 @@ exclude: [
     '.git',
     's3cfg-prog',
     's3cfg-prog.enc',
-    'config'
+    'config',
+    'vendor',
+    'deploy.sh',
+    '_deploy',
+    '_cloudfront-distriution-id'
   ]
 keep_files:
   - images
