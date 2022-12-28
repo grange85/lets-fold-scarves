@@ -35,6 +35,7 @@ pagination:
 
 # Build settings
 version: 3.0.1
+host: 0.0.0.0
 port: 4050
 markdown: kramdown
 plugins: [
