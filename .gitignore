@@ -5,4 +5,5 @@ _site
 -deploy
 .DS_Store
 .jekyll-metadata
+.jekyll-cache
 "_config/" 
