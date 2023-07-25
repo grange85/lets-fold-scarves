@@ -47,7 +47,6 @@ plugins: [
         ]
         
 environment: production
-destination: ./_deploy/
 future: false
 exclude: [
     '_notes',
