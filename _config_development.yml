@@ -1,0 +1,5 @@
+# Production environment overrides 
+# Build settings
+environment: development
+destination: ./_deploy/
+future: true

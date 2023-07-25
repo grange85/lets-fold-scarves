@@ -46,6 +46,9 @@ plugins: [
         jekyll-paginate-v2
         ]
         
+environment: production
+destination: ./_deploy/
+future: false
 exclude: [
     '_notes',
     'Gemfile',
