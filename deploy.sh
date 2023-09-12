@@ -3,9 +3,9 @@ set -euo pipefail
 
 branch=$(git symbolic-ref --short -q HEAD)
 
-if [[ $branch != 'master' ]]
+if [[ $branch != 'main' ]]
 then
-	echo "not on 'master' - so not deployed"
+	echo "not on 'main' - so not deployed"
 	exit 1
 fi
 
@@ -13,7 +13,7 @@ echo "Deploying Let's Fold Scarves"
 
 source _cloudfront-distribution-id
 # build site
-bundle exec jekyll build --config _config.yml,_config_build.yml
+bundle exec jekyll build --config _config.yml
 mkdir -p _deploy/_admin
 
 # upload to s3
