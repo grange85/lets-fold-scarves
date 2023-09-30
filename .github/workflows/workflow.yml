@@ -11,7 +11,7 @@ on:
 
 jobs:
   deployment:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     environment:
       name: production
       url: https://www.moley75.co.uk/
@@ -25,6 +25,11 @@ jobs:
         key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
         restore-keys: |
           ${{ runner.os }}-gems-
+
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.1
+        bundler-cache: true
 
     # Standard usage
     - name: Build site
