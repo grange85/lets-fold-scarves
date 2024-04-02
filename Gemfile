@@ -1,8 +1,5 @@
 source "https://rubygems.org"
-gem "jekyll", "~> 4.2.0"
-#gem 'kramdown', '>=2.3.0'
-#gem 'kramdown-parser-gfm', '>=1.0.1'
-gem 'webrick', '~> 1.3', '>= 1.3.1'
+gem "jekyll", "~> 4.3.3"
 gem 'bootstrap', '~> 4.6'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 group :jekyll_plugins do
@@ -12,5 +9,5 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2', github: 'sverrirs/jekyll-paginate-v2'
   gem 'jekyll-sitemap', '~> 1.4'
 end
-
-
+gem 'kramdown-parser-gfm', '~> 1.1'
+gem "webrick", "~> 1.8"
