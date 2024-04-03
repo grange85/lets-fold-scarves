@@ -5,10 +5,6 @@ on:
     inputs:
       tags:
         description: 'manual deploy'
-  push:
-    branches:
-      - main
-
 jobs:
   deployment:
     runs-on: ubuntu-20.04
