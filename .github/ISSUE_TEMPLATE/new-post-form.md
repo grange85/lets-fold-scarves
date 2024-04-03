@@ -1,0 +1,48 @@
+name: Create a new post
+description: Use this form to create a new post
+title: "[Post]: "
+labels: ["post", "triage"]
+projects:
+assignees:
+  - grange85
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: title
+    attributes:
+      label: Post title
+      description: Enter the title of the post
+      placeholder: e.g. Look at this fab thing
+    validations:
+      required: true
+  - type: textarea
+    id: post-content
+    attributes:
+      label: Enter the post content  here
+      description: You can use markdown to add links
+      placeholder: Post content
+    validations:
+      required: true
+  - type: dropdown
+    id: categories
+    attributes:
+      label: Set the categories for your post
+      multiple: true
+      options:
+        - Amber Benson
+        - Books
+        - Buffy the Vampire Slayer
+        - Cats
+        - Comics
+        - Female thinking
+        - Films
+        - Hitchcock
+        - London
+        - Misc
+        - Music
+        - Television
+        - Theatre
+
