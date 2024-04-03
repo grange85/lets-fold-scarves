@@ -17,8 +17,7 @@ So here are some random notes:
 
 I adore the model shot at the beginning. I think that Orson Welles missed a trick when he didn’t include models in *Citizen Kane* if he really did say that the RKO studio was "the greatest electric train set a boy ever had." 
 
-
-{% lfsvid "BDGmygzX7rw" "" %}
+{% ahfowvideo "BDGmygzX7rw" "" %}
 
 The chap who put that up thinks it's awful! Personally I think awful is the insertion of a modern horse race in MGM’s 1935 *Anna Karenina* when Vronsky falls off his mount. MGM was the richest studio at the time and stunts like that had been done successfully for years so there is no reason for them to be so cheap (and particularly since the rest of the sequence is so exciting). Hitchcock having fun with his own train set isn’t really that terrible a thing to do.
 

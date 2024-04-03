@@ -1,0 +1,59 @@
+entries:
+  - title: About
+    entries:
+      - title: about me
+        url: /about/
+      - title: rss
+        url: /feed.xml
+  - title: Latest
+    post_list: 
+      limit: 3
+      show_more: true
+      show_more_text: See all posts...
+      show_more_url: /category/all-posts/
+  - title: Hitchcock
+    post_list:
+      limit: 3
+      category: Hitchcock
+      show_more: true
+      show_more_text: See more...
+      show_more_url: /category/hitchcock/
+  - title: Films
+    post_list:
+      limit: 3
+      category: Films
+      show_more: true
+      show_more_text: Film
+      show_more_url: /category/films/
+  - title: Other categories
+    entries:
+      - title: Amber Benson
+        url: /category/amber-benson/
+      - title: Books
+        url: /category/books/
+      - title: Buffy the Vampire Slayer
+        url: /category/buffy-the-vampire-slayer/
+      - title: Cats
+        url: /category/cats/
+      - title: Comics
+        url: /category/comics/
+      - title: Female thinking
+        url: /category/female-thinking/
+      - title: Films
+        url: /category/films/
+      - title: Hitchcock
+        url: /category/hitchcock/
+      - title: London
+        url: /category/london/
+      - title: Miscellaneous
+        url: /category/miscellaneous/
+      - title: Music
+        url: /category/music/
+      - title: Television
+        url: /category/television/
+      - title: Theatre
+        url: /category/theatre/
+
+
+
+

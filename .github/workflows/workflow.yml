@@ -34,7 +34,7 @@ jobs:
     # Standard usage
     - name: Build site
       run: |
-        bundle exec jekyll build --config _config.yml,_config_production.yml
+        bundle exec jekyll build --config _config.yml,_config_build.yml
 
     # Push to S3
     - name: Configure AWS credentials
