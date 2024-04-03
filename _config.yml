@@ -6,6 +6,7 @@ baseurl: ""
 url: "http://www.moley75.co.uk" 
 twitter_username: moley75
 permalink: /:year/:month/:day/:title/
+favicon: favicon.ico
 theme: no-style-please
 theme_config:
   appearance: "light"
