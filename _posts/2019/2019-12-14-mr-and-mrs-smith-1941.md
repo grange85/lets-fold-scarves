@@ -15,7 +15,7 @@ This has a promising beginning and it is thoroughly enjoyable (especially the gr
 
 <figure class="caption aligncenter"><img src="https://the.hitchcock.zone/1000/26/0074.jpg" alt="Mr and Mrs Smith shaving" /></figure>
 
-{% lfsvid "GhbwxW5yXHk" "" %}  
+{% ahfowvideo "GhbwxW5yXHk" "" %}  
 
 More on the cat [here.](https://cinemacats.com/mr-and-mrs-smith-1941/)
 

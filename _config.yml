@@ -1,38 +1,21 @@
-# Site settings
 title: Let's Fold Scarves
 email: hazel@moley75.co.uk
-description: > # this means to ignore newlines until "baseurl:"
+description: > 
   It's what I am.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.moley75.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" 
+url: "http://www.moley75.co.uk" 
 twitter_username: moley75
-github_username: grange85
 permalink: /:year/:month/:day/:title/
-jekyll-archives:
-  enabled: ['month','categories']
-  layouts:
-    month: month-archive
-    category: category-archive
-  permalinks:
-    month: '/:year/:month/'
-    category: '/category/:name/'
-pagination: 
-  enabled: true
-  debug: false
-  collection: 'posts'
-  per_page: 5
-  permalink: '/page:num/'
-  title: ':title - page :num'
-  limit: 10
-  sort_field: 'date'
-  sort_reverse: true
-  category: 'posts'
-  trail: 
-    before: 2
-    after: 2
-  extension: html
-  indexpage: 'index'
+theme: no-style-please
+theme_config:
+  appearance: "light"
+  back_home_text: "<-- back to home"
+  date_format: "%Y-%m-%d"
+  show_description: true
+  post_navigation: true
 
+goat_counter: moley75
+banner_image: /images/mary-lets-fold-scarves.jpg
 
 # Build settings
 version: 4.2.0
@@ -41,29 +24,38 @@ port: 4050
 markdown: kramdown
 plugins: [
         jekyll-feed,
-        bootstrap-sass,
-        jekyll-archives,
-        jekyll-paginate-v2
         ]
         
+main_categories:
+   - Amber Benson
+   - Books
+   - Buffy the Vampire Slayer
+   - Cats
+   - Comics
+   - Female thinking
+   - Films
+   - Hitchcock
+   - London
+   - Misc
+   - Music
+   - Television
+   - Theatre
+
 environment: production
 future: false
-exclude: [
-    '_notes',
-    'Gemfile',
-    'Gemfile.lock',
-    'Rakefile',
-    'vendor',
-    '.sass-cache',
-    '.git',
-    's3cfg-prog',
-    's3cfg-prog.enc',
-    'config',
-    'vendor',
-    'deploy.sh',
-    '_deploy',
-    '_cloudfront-distriution-id'
-  ]
+exclude: 
+  - vendor
+  - _notes
+  - Rakefile
+  - .git
+  - config
+  - _deploy
+  - _site
+  - .jekyll-cache
+  - "*.swp"
+  - "*.swo"
+  - "*.swn"
+
 keep_files:
   - images
 excerpt_separator: <!--more-->
