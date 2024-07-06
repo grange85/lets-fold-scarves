@@ -1,15 +1,16 @@
 name: LFS
+
 on:
-  workflow_dispatch:
-    inputs:
-      tags:
-        description: manual deploy
   push:
     branches:
       - main
   schedule:
+    # Schedule to post every day
     - cron: 37 6 * * *
 jobs:
+# =====================
+# production deployment
+# =====================
   deployment:
     runs-on: ubuntu-20.04
     environment:
@@ -17,12 +18,16 @@ jobs:
       url: https://www.moley75.co.uk
     steps:
       - uses: actions/checkout@v4
+
+
+
       - uses: actions/cache@v4
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.3
