@@ -16,4 +16,3 @@ categories:
 I used to devour anything by Patricia Highsmith but now I feel that it's all rather nasty and sordid and unpleasant. And this film is too. The murder of Miriam reflected in her own glasses is brilliantly grotesque and utterly tasteless.
 
 
-<div title="rating - 4/5" style="font-size:30px;">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
