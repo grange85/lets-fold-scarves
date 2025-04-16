@@ -12,7 +12,7 @@ jobs:
 # production deployment
 # =====================
   deployment:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     environment:
       name: production
       url: https://www.moley75.co.uk
