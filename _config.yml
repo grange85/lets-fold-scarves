@@ -4,6 +4,8 @@ description: >
   It's what I am.
 baseurl: "" 
 url: "http://www.moley75.co.uk" 
+author: Hazel Simpson
+og_image: https://www.moley75.co.uk/images/mary-lets-fold-scarves.jpg
 twitter_username: moley75
 permalink: /:year/:month/:day/:title/
 favicon: favicon.ico
