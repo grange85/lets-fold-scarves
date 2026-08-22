@@ -5,7 +5,7 @@ description: >
 baseurl: "" 
 url: "http://www.moley75.co.uk" 
 author: Hazel Simpson
-og_image: https://www.moley75.co.uk/images/mary-lets-fold-scarves.jpg
+og_image: https://cdn.grange85.co.uk/lets-fold-scarves/mary-lets-fold-scarves.jpg
 twitter_username: moley75
 permalink: /:year/:month/:day/:title/
 favicon: favicon.ico
