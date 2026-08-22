@@ -18,7 +18,7 @@ theme_config:
   post_navigation: true
 
 goat_counter: moley75
-banner_image: /images/mary-lets-fold-scarves.jpg
+banner_image: https://cdn.grange85.co.uk/lets-fold-scarves/mary-lets-fold-scarves.jpg
 
 # Build settings
 version: 4.2.0
